@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{983269D1-A750-4123-8316-138E1A55A0F4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesignPatterns</RootNamespace>
+    <AssemblyName>DesignPatterns</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CSharp\ChainOfResponsibilityDesignPattern.cs" />
+    <Compile Include="CSharp\DecoratorDesignPattern.cs" />
+    <Compile Include="CSharp\VisitorDesignPattern.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DearkBeansJAVAcode\abstract-factory-design-pattern.java" />
+    <Content Include="DearkBeansJAVAcode\adapter-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\bridge-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\builder-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\chain-of-responsibility-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\command-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\composite-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\decorator-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\facade-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\factory-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\flyweight-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\interpreter-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\iterator-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\mediator-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\memento-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\observer-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\OOPS.java" />
+    <Content Include="DearkBeansJAVAcode\OOPS2.java" />
+    <Content Include="DearkBeansJAVAcode\prototype-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\proxy-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\singleton-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\state-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\strategy-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\template-method-design-pattern-tutorial.java" />
+    <Content Include="DearkBeansJAVAcode\visitor-design-pattern-tutorial.java" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

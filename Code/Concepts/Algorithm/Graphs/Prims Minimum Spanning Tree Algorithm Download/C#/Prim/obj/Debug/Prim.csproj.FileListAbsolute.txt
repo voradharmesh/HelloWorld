@@ -1,0 +1,16 @@
+C:\Users\Pate\Documents\Visual Studio 2008\Projects\Prim\Prim\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pate\Documents\Visual Studio 2008\Projects\Prim\Prim\obj\Debug\Prim.MainForm.resources
+C:\Users\Pate\Documents\Visual Studio 2008\Projects\Prim\Prim\obj\Debug\Prim.Properties.Resources.resources
+C:\Users\Pate\Documents\Visual Studio 2008\Projects\Prim\Prim\obj\Debug\Prim.csproj.GenerateResource.Cache
+C:\Users\Pate\Documents\Visual Studio 2008\Projects\Prim\Prim\bin\Debug\Prim.exe
+C:\Users\Pate\Documents\Visual Studio 2008\Projects\Prim\Prim\bin\Debug\Prim.pdb
+C:\Users\Pate\Documents\Visual Studio 2008\Projects\Prim\Prim\obj\Debug\Prim.exe
+C:\Users\Pate\Documents\Visual Studio 2008\Projects\Prim\Prim\obj\Debug\Prim.pdb
+C:\Users\dharmesh\Documents\Dharmesh\My Projects\Temp\Concepts\Algorithm\Graphs\Prims Minimum Spanning Tree Algorithm Download\C#\Prim\obj\Debug\Prim.exe
+C:\Users\dharmesh\Documents\Dharmesh\My Projects\Temp\Concepts\Algorithm\Graphs\Prims Minimum Spanning Tree Algorithm Download\C#\Prim\obj\Debug\Prim.pdb
+C:\Users\dharmesh\Documents\Dharmesh\My Projects\Temp\Concepts\Algorithm\Graphs\Prims Minimum Spanning Tree Algorithm Download\C#\Prim\bin\Debug\Prim.exe
+C:\Users\dharmesh\Documents\Dharmesh\My Projects\Temp\Concepts\Algorithm\Graphs\Prims Minimum Spanning Tree Algorithm Download\C#\Prim\bin\Debug\Prim.pdb
+C:\Users\dharmesh\Documents\Dharmesh\My Projects\Temp\Concepts\Algorithm\Graphs\Prims Minimum Spanning Tree Algorithm Download\C#\Prim\obj\Debug\Prim.csprojResolveAssemblyReference.cache
+C:\Users\dharmesh\Documents\Dharmesh\My Projects\Temp\Concepts\Algorithm\Graphs\Prims Minimum Spanning Tree Algorithm Download\C#\Prim\obj\Debug\Prim.MainForm.resources
+C:\Users\dharmesh\Documents\Dharmesh\My Projects\Temp\Concepts\Algorithm\Graphs\Prims Minimum Spanning Tree Algorithm Download\C#\Prim\obj\Debug\Prim.Properties.Resources.resources
+C:\Users\dharmesh\Documents\Dharmesh\My Projects\Temp\Concepts\Algorithm\Graphs\Prims Minimum Spanning Tree Algorithm Download\C#\Prim\obj\Debug\Prim.csproj.GenerateResource.Cache
