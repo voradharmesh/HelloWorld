@@ -1,0 +1,14 @@
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\bin\Debug\ContactsDatabase.dacpac
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\bin\Debug\ContactDatabase.dll
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\bin\Debug\ContactDatabase.pdb
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\obj\Debug\Model.xml
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\obj\Debug\refactor.xml
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\obj\Debug\postdeploy.sql
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\obj\Debug\predeploy.sql
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\obj\Debug\ContactDatabase.dll
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\obj\Debug\ContactDatabase.pdb
+C:\Users\vorad\git\learn\Contacts\ContactsDatabase\bin\Debug\ContactsDatabase.dacpac
+C:\Users\vorad\git\learn\Contacts\ContactsDatabase\bin\Debug\ContactDatabase.dll
+C:\Users\vorad\git\learn\Contacts\ContactsDatabase\bin\Debug\ContactDatabase.pdb
+C:\Users\vorad\git\learn\Contacts\ContactsDatabase\obj\Debug\ContactDatabase.dll
+C:\Users\vorad\git\learn\Contacts\ContactsDatabase\obj\Debug\ContactDatabase.pdb

@@ -1,0 +1,17 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[ContactEnumsDetails]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[ContactEnumsDetails] (Table)
+     Create
+       [dbo].[FK_ContactEnumsDetails_ToContactEnums] (Foreign Key)
+
+** Supporting actions

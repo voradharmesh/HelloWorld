@@ -1,0 +1,5 @@
+C:\Users\vorad\git\learn\Contacts\ContactsModels\bin\Debug\ContactsModels.dll
+C:\Users\vorad\git\learn\Contacts\ContactsModels\bin\Debug\ContactsModels.pdb
+C:\Users\vorad\git\learn\Contacts\ContactsModels\obj\Debug\ContactsModels.csproj.CoreCompileInputs.cache
+C:\Users\vorad\git\learn\Contacts\ContactsModels\obj\Debug\ContactsModels.dll
+C:\Users\vorad\git\learn\Contacts\ContactsModels\obj\Debug\ContactsModels.pdb

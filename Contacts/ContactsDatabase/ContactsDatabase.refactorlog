@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="32373b22-455e-4d0c-ab9d-3d479b3051af" ChangeDateTime="07/06/2020 20:41:23">
+    <Property Name="ElementName" Value="[dbo].[ContactEnums].[EnumName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContactEnums]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7c8b5577-c0c3-4c3c-8d7f-8c6f9842bde0" ChangeDateTime="07/06/2020 20:41:28">
+    <Property Name="ElementName" Value="[dbo].[ContactEnums].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContactEnums]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EnumName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1d547c0f-ff01-4557-9f11-6deea0fb8829" ChangeDateTime="07/06/2020 20:41:32">
+    <Property Name="ElementName" Value="[dbo].[ContactEnums].[EnumDescri]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContactEnums]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EnumDescription" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="57133282-e374-439e-9055-1345d7ebb96f" ChangeDateTime="07/06/2020 20:42:34">
+    <Property Name="ElementName" Value="[dbo].[ContactEnums].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContactEnums]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EnumId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="45942105-7f2c-458b-a456-ab2ace96df1f" ChangeDateTime="07/06/2020 20:42:53">
+    <Property Name="ElementName" Value="[dbo].[ContactEnumsDetails].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContactEnumsDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EnumDetailId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f69cdce0-4e76-4380-8e79-986c0b5ab200" ChangeDateTime="07/06/2020 22:11:17">
+    <Property Name="ElementName" Value="[dbo].[ContactEnumsDetails].[EnumDetailId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContactEnumsDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EnumId" />
+  </Operation>
+</Operations>

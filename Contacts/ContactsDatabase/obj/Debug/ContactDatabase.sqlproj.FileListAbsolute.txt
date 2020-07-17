@@ -1,0 +1,16 @@
+C:\Users\vorad\git\learn\sqldb\SQLDBVs2019\ContactDatabase\bin\Debug\ContactDatabase.dacpac
+C:\Users\vorad\git\learn\sqldb\SQLDBVs2019\ContactDatabase\bin\Debug\ContactDatabase.dll
+C:\Users\vorad\git\learn\sqldb\SQLDBVs2019\ContactDatabase\bin\Debug\ContactDatabase.pdb
+C:\Users\vorad\git\learn\sqldb\SQLDBVs2019\ContactDatabase\obj\Debug\ContactDatabase.sqlprojAssemblyReference.cache
+C:\Users\vorad\git\learn\sqldb\SQLDBVs2019\ContactDatabase\obj\Debug\ContactDatabase.dll
+C:\Users\vorad\git\learn\sqldb\SQLDBVs2019\ContactDatabase\obj\Debug\ContactDatabase.pdb
+C:\Users\vorad\git\learn\sqldb\SQLDBVs2019\ContactDatabase\obj\Debug\Model.xml
+C:\Users\vorad\git\learn\sqldb\SQLDBVs2019\ContactDatabase\obj\Debug\refactor.xml
+C:\Users\vorad\git\learn\sqldb\SQLDBVs2019\ContactDatabase\obj\Debug\postdeploy.sql
+C:\Users\vorad\git\learn\sqldb\SQLDBVs2019\ContactDatabase\obj\Debug\predeploy.sql
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\bin\Debug\ContactDatabase.dacpac
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\bin\Debug\ContactDatabase.dll
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\bin\Debug\ContactDatabase.pdb
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\obj\Debug\ContactDatabase.sqlprojAssemblyReference.cache
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\obj\Debug\ContactDatabase.dll
+C:\Users\vorad\git\learn\Contacts\ContactDatabase\obj\Debug\ContactDatabase.pdb

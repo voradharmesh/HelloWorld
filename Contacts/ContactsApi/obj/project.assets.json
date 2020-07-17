@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ContactsModels/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ContactsModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContactsModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContactsModels/1.0.0": {
+      "type": "project",
+      "path": "../ContactsModels/ContactsModels.csproj",
+      "msbuildProject": "../ContactsModels/ContactsModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ContactsModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vorad\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsApi\\ContactsApi.csproj",
+      "projectName": "ContactsApi",
+      "projectPath": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsApi\\ContactsApi.csproj",
+      "packagesPath": "C:\\Users\\vorad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\vorad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsModels\\ContactsModels.csproj": {
+              "projectPath": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsModels\\ContactsModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

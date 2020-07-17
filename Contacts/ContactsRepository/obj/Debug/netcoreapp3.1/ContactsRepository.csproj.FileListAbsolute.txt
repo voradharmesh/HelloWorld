@@ -1,0 +1,9 @@
+C:\Users\vorad\git\learn\Contacts\ContactsRepository\bin\Debug\netcoreapp3.1\ContactsRepository.deps.json
+C:\Users\vorad\git\learn\Contacts\ContactsRepository\bin\Debug\netcoreapp3.1\ContactsRepository.dll
+C:\Users\vorad\git\learn\Contacts\ContactsRepository\bin\Debug\netcoreapp3.1\ContactsRepository.pdb
+C:\Users\vorad\git\learn\Contacts\ContactsRepository\obj\Debug\netcoreapp3.1\ContactsRepository.csprojAssemblyReference.cache
+C:\Users\vorad\git\learn\Contacts\ContactsRepository\obj\Debug\netcoreapp3.1\ContactsRepository.AssemblyInfoInputs.cache
+C:\Users\vorad\git\learn\Contacts\ContactsRepository\obj\Debug\netcoreapp3.1\ContactsRepository.AssemblyInfo.cs
+C:\Users\vorad\git\learn\Contacts\ContactsRepository\obj\Debug\netcoreapp3.1\ContactsRepository.csproj.CoreCompileInputs.cache
+C:\Users\vorad\git\learn\Contacts\ContactsRepository\obj\Debug\netcoreapp3.1\ContactsRepository.dll
+C:\Users\vorad\git\learn\Contacts\ContactsRepository\obj\Debug\netcoreapp3.1\ContactsRepository.pdb
