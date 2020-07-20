@@ -11,6 +11,8 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ContactsDatabase", "Contact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsModels", "ContactsModels\ContactsModels.csproj", "{1C18FA74-C106-4234-906E-D6D9018FD081}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsT4", "ContactsT4\ContactsT4.csproj", "{A1C2E325-56E3-485E-B8B4-069C795F9FE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{1C18FA74-C106-4234-906E-D6D9018FD081}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C18FA74-C106-4234-906E-D6D9018FD081}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C18FA74-C106-4234-906E-D6D9018FD081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C2E325-56E3-485E-B8B4-069C795F9FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C2E325-56E3-485E-B8B4-069C795F9FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C2E325-56E3-485E-B8B4-069C795F9FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C2E325-56E3-485E-B8B4-069C795F9FE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

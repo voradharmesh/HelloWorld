@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace ContactsModels
 {
+
+    public enum ContactAddress
+    {
+        home=0,
+        work=1,
+        other=2,
+    }
     public class Contact
     {
         public int ContactId { get; set; }

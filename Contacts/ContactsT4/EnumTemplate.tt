@@ -1,0 +1,76 @@
+﻿<#@ output extension=".cs" #>
+<#@ assembly name="System.Data" #>
+<#@ assembly name="System.Core.dll" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="Microsoft.SqlServer.ConnectionInfo" #>
+<#@ assembly name="Microsoft.SqlServer.Smo" #>
+<#@ assembly name="Microsoft.SqlServer.Management.Sdk.Sfc" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Data" #>
+<#@ import namespace="System.Data.SqlClient" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Smo" #>
+<#@ import namespace="Microsoft.SqlServer.Management.Common" #>
+
+<#
+static DataTable GetTables()
+{
+    string connectionString = "SERVER=VORA-DESKTOP-21;Database=ContactsDatabase;Trusted_Connection=True";
+    DataTable dataTable = new DataTable();
+    using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+    {
+        SqlCommand command = new SqlCommand("SELECT CE.EnumID, CE.EnumName, CE.EnumCategory, CE.EnumDescription, CED.EnumDetailId, CED.EnumItemName, CED.EnumItemValue, CED.EnumItemType FROM dbo.ContactEnums CE JOIN dbo.ContactEnumsDetails CED ON CE.EnumId = CED.EnumId Order by CE.EnumID, CED.EnumDetailId", sqlConnection);
+        sqlConnection.Open();
+
+        // create data adapter
+        SqlDataAdapter da = new SqlDataAdapter(command);
+        // this will query your database and return the result to your datatable
+        da.Fill(dataTable);
+        sqlConnection.Close();
+        da.Dispose();
+    }
+
+    return dataTable;
+}
+
+#>
+namespace ContactsModels
+{
+<#
+DataTable dt = GetTables();
+if (dt != null)
+{
+    int enumID = 0;
+    foreach(DataRow dr in dt.Rows)
+    {
+        int rowEnumID = int.Parse(dr["EnumID"].ToString());
+        string enumName = dr["EnumName"].ToString();
+        string enumDescription = dr["EnumDescription"].ToString();
+        int enumDetailId = int.Parse(dr["EnumDetailId"].ToString());
+        string enumItemName = dr["EnumItemName"].ToString();
+        string enumItemValue = dr["EnumItemValue"].ToString();
+        string enumItemType = dr["EnumItemType"].ToString();
+        if (enumID != rowEnumID)
+        {
+            if (enumID != 0) 
+            {
+#>
+    }
+<# 
+            }
+            enumID = rowEnumID;
+#>
+
+    ///<#= enumID #>:<#= enumName #>:<#= enumDescription #>
+    public enum <#= enumName #>
+    {
+<#
+        }
+#>
+        <#= enumItemName #>=<#= enumItemValue #>,
+<#
+    }
+}
+#>
+    }
+}

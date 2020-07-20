@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsRepository\\ContactsRepository.csproj",
+      "projectUniqueName": "C:\\Users\\vorad\\git\\Contacts\\ContactsRepository\\ContactsRepository.csproj",
       "projectName": "ContactsRepository",
-      "projectPath": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsRepository\\ContactsRepository.csproj",
+      "projectPath": "C:\\Users\\vorad\\git\\Contacts\\ContactsRepository\\ContactsRepository.csproj",
       "packagesPath": "C:\\Users\\vorad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsRepository\\obj\\",
+      "outputPath": "C:\\Users\\vorad\\git\\Contacts\\ContactsRepository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

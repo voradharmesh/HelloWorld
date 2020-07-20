@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsApi\\ContactsApi.csproj",
+      "projectUniqueName": "C:\\Users\\vorad\\git\\Contacts\\ContactsApi\\ContactsApi.csproj",
       "projectName": "ContactsApi",
-      "projectPath": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsApi\\ContactsApi.csproj",
+      "projectPath": "C:\\Users\\vorad\\git\\Contacts\\ContactsApi\\ContactsApi.csproj",
       "packagesPath": "C:\\Users\\vorad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsApi\\obj\\",
+      "outputPath": "C:\\Users\\vorad\\git\\Contacts\\ContactsApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -58,8 +58,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsModels\\ContactsModels.csproj": {
-              "projectPath": "C:\\Users\\vorad\\git\\learn\\Contacts\\ContactsModels\\ContactsModels.csproj"
+            "C:\\Users\\vorad\\git\\Contacts\\ContactsModels\\ContactsModels.csproj": {
+              "projectPath": "C:\\Users\\vorad\\git\\Contacts\\ContactsModels\\ContactsModels.csproj"
             }
           }
         }
